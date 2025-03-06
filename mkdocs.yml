@@ -1,0 +1,69 @@
+site_name: Getting started with SiOME plugin development
+
+theme:
+  name: 'code-siemens-code-docs-theme'
+  palette:
+    - scheme: dark
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+    - scheme: light
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+  features:
+   - navigation.tabs
+   - navigation.sections
+   - navigation.expand
+   - navigation.footer
+   - page.toc
+   - content.code.copy
+
+nav:
+  - Home:
+    - Introduction: index.md
+    - Used Software: used_software.md
+    - FAQ: FAQ.md
+    - Further Information: further_information.md
+  - Getting Started:
+    - Preparation of the development environment: preparations.md
+    - Setting up your Project: setup_project.md
+    - Using the SiOME API: using_the_api.md
+  - API Documentation:
+    - API functions: interfaces/interfaces_siome_api_interface.ISiomeApi.md
+    - Overview: modules.md
+
+extra:
+  hide_license_text: true
+  version:
+    provider: mike
+  community:
+    community_button_text: 'Get SiOME'
+    community_button_default_href: 'https://support.industry.siemens.com/cs/document/109755133/siemens-opc-ua-modeling-editor-(siome)?dti=0&lc=en-US'
+  links:
+    - name: 'Get the SiOME base-plugin-project on GitHub'
+      value: 'https://github.com/tia-portal-applications/SiOME-Base-Plugin'
+    
+markdown_extensions:
+  - plantuml_markdown:
+      server: https://code.siemens.com/api/plantuml
+  - pymdownx.highlight:
+      linenums: true
+      linenums_style: pymdownx-inline
+      guess_lang: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - admonition
+  - footnotes
+  - pymdownx.details
+  - pymdownx.snippets
+  - pymdownx.tabbed
+  - pymdownx.tasklist
+  - pymdownx.tilde
+  - pymdownx.keys
