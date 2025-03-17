@@ -7725,7 +7725,7 @@
 <blockquote>
 <p><strong>browse</strong>(<code>nodeId</code>): <code>Promise</code>\&lt;<a href="../../../browse-result.interface/interfaces/IBrowseResult/"><code>IBrowseResult</code></a>></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L903">interfaces/siome-api.interface.ts:903</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L914">interfaces/siome-api.interface.ts:914</a></p>
 <p>Browse the online information model for a specific nodeId</p>
 <h4 id="parameters">Parameters</h4>
 <h5 id="nodeid">nodeId</h5>
@@ -7739,7 +7739,7 @@
 <blockquote>
 <p><strong>callMethod</strong>(<code>methodNodeId</code>, <code>inputArguments</code>): <code>Promise</code>\&lt;<code>any</code>></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L920">interfaces/siome-api.interface.ts:920</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L931">interfaces/siome-api.interface.ts:931</a></p>
 <p>Call a specific online method with given input arguments</p>
 <h4 id="parameters_1">Parameters</h4>
 <h5 id="methodnodeid">methodNodeId</h5>
@@ -7755,7 +7755,7 @@
 <blockquote>
 <p><strong>connectImplicit</strong>(<code>connectParams</code>, <code>browseOrAll</code>): <code>Promise</code>\&lt;<code>boolean</code>></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L875">interfaces/siome-api.interface.ts:875</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L886">interfaces/siome-api.interface.ts:886</a></p>
 <p>Connect to an opc ua server without showing a dialog</p>
 <h4 id="parameters_2">Parameters</h4>
 <h5 id="connectparams">connectParams</h5>
@@ -7783,7 +7783,7 @@ username: "myUsername"
 <blockquote>
 <p><strong>disconnectImplicit</strong>(): <code>Promise</code>\&lt;<code>void</code>></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L881">interfaces/siome-api.interface.ts:881</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L892">interfaces/siome-api.interface.ts:892</a></p>
 <p>Disconnect from current opc ua server without showing a dialog</p>
 <h4 id="returns_3">Returns</h4>
 <p><code>Promise</code>\&lt;<code>void</code>></p>
@@ -7792,7 +7792,7 @@ username: "myUsername"
 <blockquote>
 <p><strong>findGateway</strong>(<code>address</code>, <code>certificateFilePath</code>, <code>privateKeyFilePath</code>): <code>Promise</code>\&lt;<code>Map</code>\&lt;<code>string</code>, <a href="../../../endpoint.interface/interfaces/IEndpoint/"><code>IEndpoint</code></a>[]>></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L891">interfaces/siome-api.interface.ts:891</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L902">interfaces/siome-api.interface.ts:902</a></p>
 <p>Find an opc ua server through a given address</p>
 <h4 id="parameters_3">Parameters</h4>
 <h5 id="address">address</h5>
@@ -7810,7 +7810,7 @@ username: "myUsername"
 <blockquote>
 <p><strong>getOnlineStatusSubscription</strong>(): <code>BehaviorSubject</code>\&lt;<code>boolean</code>></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L840">interfaces/siome-api.interface.ts:840</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L851">interfaces/siome-api.interface.ts:851</a></p>
 <p>Return a BehaviorSubject to check the current online status</p>
 <h4 id="returns_5">Returns</h4>
 <p><code>BehaviorSubject</code>\&lt;<code>boolean</code>></p>
@@ -7819,7 +7819,7 @@ username: "myUsername"
 <blockquote>
 <p><strong>openConnectOpcServerDialog</strong>(): <code>Promise</code>\&lt;<code>void</code>></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L846">interfaces/siome-api.interface.ts:846</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L857">interfaces/siome-api.interface.ts:857</a></p>
 <p>Open the default dialog in SiOME to connect to an opc ua server</p>
 <h4 id="returns_6">Returns</h4>
 <p><code>Promise</code>\&lt;<code>void</code>></p>
@@ -7828,7 +7828,7 @@ username: "myUsername"
 <blockquote>
 <p><strong>openDisconnectOpcServerDialog</strong>(): <code>Promise</code>\&lt;<code>void</code>></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L852">interfaces/siome-api.interface.ts:852</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L863">interfaces/siome-api.interface.ts:863</a></p>
 <p>Open the default dialog in SiOME to disconnect from current opc ua server</p>
 <h4 id="returns_7">Returns</h4>
 <p><code>Promise</code>\&lt;<code>void</code>></p>
@@ -7837,7 +7837,7 @@ username: "myUsername"
 <blockquote>
 <p><strong>read</strong>(<code>nodeId</code>): <code>Promise</code>\&lt;<a href="../../../read-result.interface/interfaces/IReadResult/"><code>IReadResult</code></a>></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L911">interfaces/siome-api.interface.ts:911</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L922">interfaces/siome-api.interface.ts:922</a></p>
 <p>Read a node in the online information model</p>
 <h4 id="parameters_4">Parameters</h4>
 <h5 id="nodeid_1">nodeId</h5>
@@ -7851,7 +7851,7 @@ username: "myUsername"
 <blockquote>
 <p><strong>write</strong>(<code>nodeId</code>, <code>value</code>): <code>Promise</code>\&lt;<code>void</code>></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L929">interfaces/siome-api.interface.ts:929</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L940">interfaces/siome-api.interface.ts:940</a></p>
 <p>Set the value of a online varibale</p>
 <h4 id="parameters_5">Parameters</h4>
 <h5 id="nodeid_2">nodeId</h5>
@@ -7869,7 +7869,7 @@ username: "myUsername"
 <blockquote>
 <p><strong>changeMaxNodeLimit</strong>(<code>maxNodeLimit</code>): <code>Promise</code>\&lt;<code>void</code>></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L622">interfaces/siome-api.interface.ts:622</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L627">interfaces/siome-api.interface.ts:627</a></p>
 <p>The setting for the maximum allowed nodes in the project.</p>
 <h4 id="parameters_6">Parameters</h4>
 <h5 id="maxnodelimit">maxNodeLimit</h5>
@@ -7883,7 +7883,7 @@ username: "myUsername"
 <blockquote>
 <p><strong>closeSiOME</strong>(): <code>Promise</code>\&lt;<code>void</code>></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L628">interfaces/siome-api.interface.ts:628</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L633">interfaces/siome-api.interface.ts:633</a></p>
 <p>The method  closes the SiOME.</p>
 <h4 id="returns_11">Returns</h4>
 <p><code>Promise</code>\&lt;<code>void</code>></p>
@@ -7892,7 +7892,7 @@ username: "myUsername"
 <blockquote>
 <p><strong>createLogNode</strong>(<code>name</code>): <code>Promise</code>\&lt;<code>void</code>></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L489">interfaces/siome-api.interface.ts:489</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L494">interfaces/siome-api.interface.ts:494</a></p>
 <p>Create a root log node.</p>
 <h4 id="parameters_7">Parameters</h4>
 <h5 id="name">name</h5>
@@ -7905,7 +7905,7 @@ username: "myUsername"
 <blockquote>
 <p><strong>exportXML</strong>(<code>namespaceUris</code>, <code>includeMappings</code>, <code>includeValues</code>, <code>exportPath</code>, <code>exportName</code>): <code>Promise</code>\&lt;<code>void</code>></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L647">interfaces/siome-api.interface.ts:647</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L652">interfaces/siome-api.interface.ts:652</a></p>
 <p>Exports the nodeset in xml format</p>
 <h4 id="parameters_8">Parameters</h4>
 <h5 id="namespaceuris">namespaceUris</h5>
@@ -7932,7 +7932,7 @@ username: "myUsername"
 <blockquote>
 <p><strong>getNodesetAsString</strong>(<code>namespaceUris</code>, <code>includeMappings</code>, <code>includeValues</code>): <code>Promise</code>\&lt;<code>string</code>></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L658">interfaces/siome-api.interface.ts:658</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L668">interfaces/siome-api.interface.ts:668</a></p>
 <p>Return the nodeset as a string created by the given namespace uris</p>
 <h4 id="parameters_9">Parameters</h4>
 <h5 id="namespaceuris_1">namespaceUris</h5>
@@ -7953,7 +7953,7 @@ username: "myUsername"
 <blockquote>
 <p><strong>getSiOMESettings</strong>(): <code>Promise</code>\&lt;<code>any</code>></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L544">interfaces/siome-api.interface.ts:544</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L549">interfaces/siome-api.interface.ts:549</a></p>
 <p>The method returns the current SiOME settings</p>
 <h4 id="returns_15">Returns</h4>
 <p><code>Promise</code>\&lt;<code>any</code>></p>
@@ -8002,7 +8002,7 @@ username: "myUsername"
 <blockquote>
 <p><strong>getSiOMEVersion</strong>(): <code>Promise</code>\&lt;<code>string</code>></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L635">interfaces/siome-api.interface.ts:635</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L640">interfaces/siome-api.interface.ts:640</a></p>
 <p>The method returns the current SiOME version</p>
 <h4 id="returns_16">Returns</h4>
 <p><code>Promise</code>\&lt;<code>string</code>></p>
@@ -8012,7 +8012,7 @@ username: "myUsername"
 <blockquote>
 <p><strong>importFile</strong>(<code>fileFormat</code>, <code>supportMultipleFiles</code>): <code>Promise</code>\&lt;<a href="../../../import-file.interface/interfaces/IImportFile/"><code>IImportFile</code></a>></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L482">interfaces/siome-api.interface.ts:482</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L487">interfaces/siome-api.interface.ts:487</a></p>
 <p>Import one or multiple xml-like files through a dialog.</p>
 <h4 id="parameters_10">Parameters</h4>
 <h5 id="fileformat">fileFormat</h5>
@@ -8029,7 +8029,7 @@ username: "myUsername"
 <blockquote>
 <p><strong>importNodeSet</strong>(<code>path</code>): <code>Promise</code>\&lt;<code>boolean</code>></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L665">interfaces/siome-api.interface.ts:665</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L675">interfaces/siome-api.interface.ts:675</a></p>
 <p>Load a namespace with a given path but without a dialog</p>
 <h4 id="parameters_11">Parameters</h4>
 <h5 id="path">path</h5>
@@ -8041,7 +8041,7 @@ username: "myUsername"
 <blockquote>
 <p><strong>newLogEntry</strong>(<code>logEntry</code>, <code>type</code>): <code>Promise</code>\&lt;<code>void</code>></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L497">interfaces/siome-api.interface.ts:497</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L502">interfaces/siome-api.interface.ts:502</a></p>
 <p>Add a new entry with the specific type under the current parent log node.</p>
 <h4 id="parameters_12">Parameters</h4>
 <h5 id="logentry">logEntry</h5>
@@ -8083,7 +8083,7 @@ username: "myUsername"
 <blockquote>
 <p><strong>startValueForPlaceholder</strong>(<code>defaultPlaceholder</code>): <code>Promise</code>\&lt;<code>void</code>></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L614">interfaces/siome-api.interface.ts:614</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L619">interfaces/siome-api.interface.ts:619</a></p>
 <p>The setting for selecting default placeholder value at nodes.</p>
 <h4 id="parameters_15">Parameters</h4>
 <h5 id="defaultplaceholder">defaultPlaceholder</h5>
@@ -8098,7 +8098,7 @@ username: "myUsername"
 <blockquote>
 <p><strong>toggleDefaultNodeID</strong>(): <code>Promise</code>\&lt;<code>void</code>></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L571">interfaces/siome-api.interface.ts:571</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L576">interfaces/siome-api.interface.ts:576</a></p>
 <p>The setting for displaying the nodeID either as string or as numeric.</p>
 <h5 id="returns_23">Returns</h5>
 <p><code>Promise</code>\&lt;<code>void</code>></p>
@@ -8108,7 +8108,7 @@ username: "myUsername"
 <blockquote>
 <p><strong>toggleDefaultNodeID</strong>(): <code>Promise</code>\&lt;<code>void</code>></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L598">interfaces/siome-api.interface.ts:598</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L603">interfaces/siome-api.interface.ts:603</a></p>
 <p>The setting for displaying the nodeID either as string or as numeric.</p>
 <h5 id="returns_24">Returns</h5>
 <p><code>Promise</code>\&lt;<code>void</code>></p>
@@ -8120,7 +8120,7 @@ username: "myUsername"
 <blockquote>
 <p><strong>toggleShowDataTypes</strong>(): <code>Promise</code>\&lt;<code>void</code>></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L557">interfaces/siome-api.interface.ts:557</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L562">interfaces/siome-api.interface.ts:562</a></p>
 <p>The setting for showing data types of nodes.</p>
 <h5 id="returns_25">Returns</h5>
 <p><code>Promise</code>\&lt;<code>void</code>></p>
@@ -8130,7 +8130,7 @@ username: "myUsername"
 <blockquote>
 <p><strong>toggleShowDataTypes</strong>(): <code>Promise</code>\&lt;<code>void</code>></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L584">interfaces/siome-api.interface.ts:584</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L589">interfaces/siome-api.interface.ts:589</a></p>
 <p>The setting for showing data types of nodes.</p>
 <h5 id="returns_26">Returns</h5>
 <p><code>Promise</code>\&lt;<code>void</code>></p>
@@ -8142,7 +8142,7 @@ username: "myUsername"
 <blockquote>
 <p><strong>toggleShowDisplayName</strong>(): <code>Promise</code>\&lt;<code>void</code>></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L564">interfaces/siome-api.interface.ts:564</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L569">interfaces/siome-api.interface.ts:569</a></p>
 <p>The setting for showing display or browse name of the nodes.</p>
 <h5 id="returns_27">Returns</h5>
 <p><code>Promise</code>\&lt;<code>void</code>></p>
@@ -8152,7 +8152,7 @@ username: "myUsername"
 <blockquote>
 <p><strong>toggleShowDisplayName</strong>(): <code>Promise</code>\&lt;<code>void</code>></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L591">interfaces/siome-api.interface.ts:591</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L596">interfaces/siome-api.interface.ts:596</a></p>
 <p>The setting for showing display or browse name of the nodes.</p>
 <h5 id="returns_28">Returns</h5>
 <p><code>Promise</code>\&lt;<code>void</code>></p>
@@ -8164,7 +8164,7 @@ username: "myUsername"
 <blockquote>
 <p><strong>toggleSortNodesAlphabetically</strong>(): <code>Promise</code>\&lt;<code>void</code>></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L550">interfaces/siome-api.interface.ts:550</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L555">interfaces/siome-api.interface.ts:555</a></p>
 <p>The setting for sorting the nodes alphabetically.</p>
 <h5 id="returns_29">Returns</h5>
 <p><code>Promise</code>\&lt;<code>void</code>></p>
@@ -8172,7 +8172,7 @@ username: "myUsername"
 <blockquote>
 <p><strong>toggleSortNodesAlphabetically</strong>(): <code>Promise</code>\&lt;<code>void</code>></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L577">interfaces/siome-api.interface.ts:577</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L582">interfaces/siome-api.interface.ts:582</a></p>
 <p>The setting for sorting the nodes alphabetically.</p>
 <h5 id="returns_30">Returns</h5>
 <p><code>Promise</code>\&lt;<code>void</code>></p>
@@ -8181,7 +8181,7 @@ username: "myUsername"
 <blockquote>
 <p><strong>validateUANodeSet</strong>(<code>val</code>): <code>Promise</code>\&lt;<code>void</code>></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L606">interfaces/siome-api.interface.ts:606</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L611">interfaces/siome-api.interface.ts:611</a></p>
 <p>The setting for validating against the UANodeset.xsd.</p>
 <h4 id="parameters_16">Parameters</h4>
 <h5 id="val">val</h5>
@@ -8216,7 +8216,7 @@ username: "myUsername"
 <blockquote>
 <p><strong>activeTypeReferences</strong>(<code>nodeId</code>): <code>Promise</code>\&lt;<a href="../../../opc-reference.interface/interfaces/IOpcReference/"><code>IOpcReference</code></a>[]></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L379">interfaces/siome-api.interface.ts:379</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L384">interfaces/siome-api.interface.ts:384</a></p>
 <p>Get all active type references of the given node</p>
 <h4 id="parameters_18">Parameters</h4>
 <h5 id="nodeid_3">nodeId</h5>
@@ -8245,7 +8245,7 @@ username: "myUsername"
 <blockquote>
 <p><strong>addMethod</strong>(<code>parentNodeId</code>, <code>methodName</code>, <code>namespaceIndex</code>, <code>inputArgs</code>, <code>outputArgs</code>): <code>Promise</code>\&lt;<a href="../../../opc-reference.interface/interfaces/IOpcReference/"><code>IOpcReference</code></a>></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L235">interfaces/siome-api.interface.ts:235</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L240">interfaces/siome-api.interface.ts:240</a></p>
 <p>Add a new method to the current information model.</p>
 <h4 id="parameters_20">Parameters</h4>
 <h5 id="parentnodeid_1">parentNodeId</h5>
@@ -8272,7 +8272,7 @@ username: "myUsername"
 <blockquote>
 <p><strong>addMethodArgument</strong>(<code>methodNodeId</code>, <code>argumentType</code>, <code>params</code>): <code>Promise</code>\&lt;<code>void</code>></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L252">interfaces/siome-api.interface.ts:252</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L257">interfaces/siome-api.interface.ts:257</a></p>
 <p>Add a new argument to the input or output arguments of a method.</p>
 <h4 id="parameters_21">Parameters</h4>
 <h5 id="methodnodeid_1">methodNodeId</h5>
@@ -8394,7 +8394,7 @@ username: "myUsername"
 <blockquote>
 <p><strong>createVariableTypeFromDataType</strong>(<code>dataTypeNodeId</code>): <code>Promise</code>\&lt;<a href="../../../opc-node.interface/interfaces/IOpcNode/"><code>IOpcNode</code></a>></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L223">interfaces/siome-api.interface.ts:223</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L228">interfaces/siome-api.interface.ts:228</a></p>
 <p>Add a new variable type of a given DataType to the current information model.</p>
 <h4 id="parameters_28">Parameters</h4>
 <h5 id="datatypenodeid">dataTypeNodeId</h5>
@@ -8421,7 +8421,7 @@ username: "myUsername"
 <blockquote>
 <p><strong>deleteMethodArgument</strong>(<code>methodNodeId</code>, <code>argumentType</code>, <code>argumentName</code>): <code>Promise</code>\&lt;<code>void</code>></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L305">interfaces/siome-api.interface.ts:305</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L310">interfaces/siome-api.interface.ts:310</a></p>
 <p>Delete the input or output argument of the method.</p>
 <h4 id="parameters_29">Parameters</h4>
 <h5 id="methodnodeid_2">methodNodeId</h5>
@@ -8441,7 +8441,7 @@ username: "myUsername"
 <blockquote>
 <p><strong>deleteNode</strong>(<code>nodeId</code>): <code>Promise</code>\&lt;<code>void</code>></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L204">interfaces/siome-api.interface.ts:204</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L209">interfaces/siome-api.interface.ts:209</a></p>
 <p>Delete a node.</p>
 <h4 id="parameters_30">Parameters</h4>
 <h5 id="nodeid_4">nodeId</h5>
@@ -8456,7 +8456,7 @@ username: "myUsername"
 <blockquote>
 <p><strong>editMethodArgument</strong>(<code>methodNodeId</code>, <code>argumentType</code>, <code>argumentName</code>, <code>params</code>): <code>Promise</code>\&lt;<code>void</code>></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L289">interfaces/siome-api.interface.ts:289</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L294">interfaces/siome-api.interface.ts:294</a></p>
 <p>Edit the input or output argument of a method.</p>
 <h4 id="parameters_31">Parameters</h4>
 <h5 id="methodnodeid_3">methodNodeId</h5>
@@ -8479,7 +8479,7 @@ username: "myUsername"
 <blockquote>
 <p><strong>getAllMethodArguments</strong>(<code>methodNodeId</code>, <code>argumentType</code>): <code>Promise</code>\&lt;<a href="../../../method-arguments.interface/interfaces/IMethodArguments/"><code>IMethodArguments</code></a>[]></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L262">interfaces/siome-api.interface.ts:262</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L267">interfaces/siome-api.interface.ts:267</a></p>
 <p>Get all the input or output arguments of the method.</p>
 <h4 id="parameters_32">Parameters</h4>
 <h5 id="methodnodeid_4">methodNodeId</h5>
@@ -8497,7 +8497,7 @@ username: "myUsername"
 <blockquote>
 <p><strong>getAttributeData</strong>(<code>nodeId</code>, <code>attributeId</code>): <code>Promise</code>\&lt;<a href="../../../base-attribute-data.interface/interfaces/IBaseAttributeData/"><code>IBaseAttributeData</code></a>></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L392">interfaces/siome-api.interface.ts:392</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L397">interfaces/siome-api.interface.ts:397</a></p>
 <p>Get attribute data of a OPC node</p>
 <h4 id="parameters_33">Parameters</h4>
 <h5 id="nodeid_5">nodeId</h5>
@@ -8511,7 +8511,7 @@ username: "myUsername"
 <blockquote>
 <p><strong>getMethodArgument</strong>(<code>methodNodeId</code>, <code>argumentType</code>, <code>argumentName</code>): <code>Promise</code>\&lt;<a href="../../../method-arguments.interface/interfaces/IMethodArguments/"><code>IMethodArguments</code></a>></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L273">interfaces/siome-api.interface.ts:273</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L278">interfaces/siome-api.interface.ts:278</a></p>
 <p>Get a specific input or output argument of the method.</p>
 <h4 id="parameters_34">Parameters</h4>
 <h5 id="methodnodeid_5">methodNodeId</h5>
@@ -8532,7 +8532,7 @@ username: "myUsername"
 <blockquote>
 <p><strong>getNamespace</strong>(<code>namespaceUri</code>): <code>Promise</code>\&lt;<a href="../../../project-node.interface/interfaces/IProjectNode/"><code>IProjectNode</code></a>></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L348">interfaces/siome-api.interface.ts:348</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L353">interfaces/siome-api.interface.ts:353</a></p>
 <p>Retrieve the internal IProjectNode belonging to a specific namespace uri.</p>
 <h4 id="parameters_35">Parameters</h4>
 <h5 id="namespaceuri_2">namespaceUri</h5>
@@ -8570,7 +8570,7 @@ username: "myUsername"
 <blockquote>
 <p><strong>isDescendantFrom</strong>(<code>childNodeId</code>, <code>nodeId</code>): <code>Promise</code>\&lt;<code>boolean</code>></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L356">interfaces/siome-api.interface.ts:356</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L361">interfaces/siome-api.interface.ts:361</a></p>
 <p>The method checks if the provided child is a descendant of the provided node</p>
 <h4 id="parameters_37">Parameters</h4>
 <h5 id="childnodeid">childNodeId</h5>
@@ -8596,7 +8596,7 @@ username: "myUsername"
 <blockquote>
 <p><strong>monitorNamespace</strong>(): <code>BehaviorSubject</code>\&lt;<a href="../../../namespace-change.interface/interfaces/INamespaceChange/"><code>INamespaceChange</code></a>></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L384">interfaces/siome-api.interface.ts:384</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L389">interfaces/siome-api.interface.ts:389</a></p>
 <h4 id="returns_57">Returns</h4>
 <p><code>BehaviorSubject</code>\&lt;<a href="../../../namespace-change.interface/interfaces/INamespaceChange/"><code>INamespaceChange</code></a>></p>
 <hr />
@@ -8604,7 +8604,7 @@ username: "myUsername"
 <blockquote>
 <p><strong>moveNode</strong>(<code>nodeId</code>, <code>currentParentId</code>, <code>newParentId</code>): <code>Promise</code>\&lt;<code>void</code>></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L214">interfaces/siome-api.interface.ts:214</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L219">interfaces/siome-api.interface.ts:219</a></p>
 <p>Move a node to a new parent.</p>
 <h4 id="parameters_39">Parameters</h4>
 <h5 id="nodeid_8">nodeId</h5>
@@ -8625,7 +8625,7 @@ username: "myUsername"
 <blockquote>
 <p><strong>removeReference</strong>(<code>sourceId</code>, <code>targetId</code>, <code>referenceTypeId</code>): <code>Promise</code>\&lt;<code>void</code>></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L196">interfaces/siome-api.interface.ts:196</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L201">interfaces/siome-api.interface.ts:201</a></p>
 <p>Remove a reference. If it is the last hierarchical reference to the target node, the node will be deleted.</p>
 <h4 id="parameters_40">Parameters</h4>
 <h5 id="sourceid_2">sourceId</h5>
@@ -8665,7 +8665,7 @@ username: "myUsername"
 <blockquote>
 <p><strong>setMapping</strong>(<code>nodeId</code>, <code>mapping</code>): <code>Promise</code>\&lt;<code>void</code>></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L372">interfaces/siome-api.interface.ts:372</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L377">interfaces/siome-api.interface.ts:377</a></p>
 <p>Set mapping for a given node</p>
 <h4 id="parameters_42">Parameters</h4>
 <h5 id="nodeid_9">nodeId</h5>
@@ -8679,7 +8679,7 @@ username: "myUsername"
 <blockquote>
 <p><strong>setModellingRule</strong>(<code>nodeId</code>, <code>rule</code>): <code>Promise</code>\&lt;<code>void</code>></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L364">interfaces/siome-api.interface.ts:364</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L369">interfaces/siome-api.interface.ts:369</a></p>
 <p>Set the modelling rule for a given reference</p>
 <h4 id="parameters_43">Parameters</h4>
 <h5 id="nodeid_10">nodeId</h5>
@@ -8693,7 +8693,7 @@ username: "myUsername"
 <blockquote>
 <p><strong>setNamespaceAttribute</strong>(<code>attributeId</code>, <code>namespaceIndex</code>, <code>value</code>): <code>Promise</code>\&lt;<code>void</code>></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L340">interfaces/siome-api.interface.ts:340</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L345">interfaces/siome-api.interface.ts:345</a></p>
 <p>Set the namespace attributes</p>
 <h4 id="parameters_44">Parameters</h4>
 <h5 id="attributeid_1">attributeId</h5>
@@ -8733,7 +8733,7 @@ username: "myUsername"
 <blockquote>
 <p><strong>setAttribute</strong>(<code>attributeId</code>, <code>nodeId</code>, <code>options</code>): <code>Promise</code>\&lt;<code>void</code>></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L327">interfaces/siome-api.interface.ts:327</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L332">interfaces/siome-api.interface.ts:332</a></p>
 <p>Set the attributes of a node</p>
 <h4 id="parameters_46">Parameters</h4>
 <h5 id="attributeid_2">attributeId</h5>
@@ -8765,7 +8765,7 @@ attributeId:20 options: boolean | string</p>
 <blockquote>
 <p><strong>addPubSubAvailablePublishedDataset</strong>(<code>fileNames</code>): <code>Promise</code>\&lt;<code>void</code>></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L1026">interfaces/siome-api.interface.ts:1026</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L1037">interfaces/siome-api.interface.ts:1037</a></p>
 <p>Add Pubsub Subscriber Dataset from Published XML Path</p>
 <h4 id="parameters_47">Parameters</h4>
 <h5 id="filenames">fileNames</h5>
@@ -8778,7 +8778,7 @@ attributeId:20 options: boolean | string</p>
 <blockquote>
 <p><strong>addPubSubConnection</strong>(<code>newName</code>, <code>address</code>, <code>network</code>, <code>publisherId</code>): <code>Promise</code>\&lt;<a href="../../../opc-node.interface/interfaces/IOpcNode/"><code>IOpcNode</code></a>></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L942">interfaces/siome-api.interface.ts:942</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L953">interfaces/siome-api.interface.ts:953</a></p>
 <p>Create Pubsub connection</p>
 <h4 id="parameters_48">Parameters</h4>
 <h5 id="newname">newName</h5>
@@ -8800,7 +8800,7 @@ attributeId:20 options: boolean | string</p>
 <blockquote>
 <p><strong>addPubSubDatasetWriter</strong>(<code>datasetName</code>, <code>newPublishedDatasetId</code>): <code>Promise</code>\&lt;<a href="../../../opc-node.interface/interfaces/IOpcNode/"><code>IOpcNode</code></a>></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L977">interfaces/siome-api.interface.ts:977</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L988">interfaces/siome-api.interface.ts:988</a></p>
 <p>Create Pubsub Published Dataset Writer</p>
 <h4 id="parameters_49">Parameters</h4>
 <h5 id="datasetname">datasetName</h5>
@@ -8816,7 +8816,7 @@ attributeId:20 options: boolean | string</p>
 <blockquote>
 <p><strong>addPubSubPublishedDataset</strong>(<code>newName</code>, <code>description</code>): <code>Promise</code>\&lt;<a href="../../../opc-node.interface/interfaces/IOpcNode/"><code>IOpcNode</code></a>></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L969">interfaces/siome-api.interface.ts:969</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L980">interfaces/siome-api.interface.ts:980</a></p>
 <p>Create Pubsub connection</p>
 <h4 id="parameters_50">Parameters</h4>
 <h5 id="newname_1">newName</h5>
@@ -8832,7 +8832,7 @@ attributeId:20 options: boolean | string</p>
 <blockquote>
 <p><strong>addPubSubPublishedDatasetSimple</strong>(<code>datasetName</code>, <code>connectionId</code>, <code>interval</code>, <code>headerLayoutUri</code>, <code>isUnicast</code>, <code>listenPort</code>): <code>Promise</code>\&lt;<code>void</code>></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L954">interfaces/siome-api.interface.ts:954</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L965">interfaces/siome-api.interface.ts:965</a></p>
 <p>Create Pubsub Dataset Simple</p>
 <h4 id="parameters_51">Parameters</h4>
 <h5 id="datasetname_1">datasetName</h5>
@@ -8857,7 +8857,7 @@ attributeId:20 options: boolean | string</p>
 <blockquote>
 <p><strong>addPubSubSubscribedDataset</strong>(<code>datasetNodeId</code>, <code>isStandaloneSubscribedDataset</code>, <code>targetNodeIds</code>): <code>Promise</code>\&lt;<code>void</code>></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L1015">interfaces/siome-api.interface.ts:1015</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L1026">interfaces/siome-api.interface.ts:1026</a></p>
 <p>Add Pubsub Subscribed Dataset</p>
 <h4 id="parameters_52">Parameters</h4>
 <h5 id="datasetnodeid">datasetNodeId</h5>
@@ -8876,7 +8876,7 @@ attributeId:20 options: boolean | string</p>
 <blockquote>
 <p><strong>addPubSubVariables</strong>(<code>pubSubDatasetNodeId</code>, <code>nodeIds</code>): <code>Promise</code>\&lt;<code>void</code>></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L1006">interfaces/siome-api.interface.ts:1006</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L1017">interfaces/siome-api.interface.ts:1017</a></p>
 <p>Add Variables to a Pubsub Dataset</p>
 <h4 id="parameters_53">Parameters</h4>
 <h5 id="pubsubdatasetnodeid">pubSubDatasetNodeId</h5>
@@ -8892,7 +8892,7 @@ attributeId:20 options: boolean | string</p>
 <blockquote>
 <p><strong>addPubSubWriterGroup</strong>(<code>datasetName</code>, <code>connectionId</code>, <code>interval</code>, <code>headerLayoutUri</code>, <code>isUnicast</code>, <code>listenPort</code>, <code>newDatasetWriterId</code>): <code>Promise</code>\&lt;<a href="../../../opc-node.interface/interfaces/IOpcNode/"><code>IOpcNode</code></a>></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L990">interfaces/siome-api.interface.ts:990</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L1001">interfaces/siome-api.interface.ts:1001</a></p>
 <p>Create Pubsub Dataset Writer Group</p>
 <h4 id="parameters_54">Parameters</h4>
 <h5 id="datasetname_2">datasetName</h5>
@@ -8920,7 +8920,7 @@ attributeId:20 options: boolean | string</p>
 <blockquote>
 <p><strong>getAllPublishedDatasets</strong>(): <code>Promise</code>\&lt;<a href="../../../opc-node.interface/interfaces/IOpcNode/"><code>IOpcNode</code></a>[]></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L1032">interfaces/siome-api.interface.ts:1032</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L1043">interfaces/siome-api.interface.ts:1043</a></p>
 <p>Gets all published DataSets</p>
 <h4 id="returns_75">Returns</h4>
 <p><code>Promise</code>\&lt;<a href="../../../opc-node.interface/interfaces/IOpcNode/"><code>IOpcNode</code></a>[]></p>
@@ -8929,7 +8929,7 @@ attributeId:20 options: boolean | string</p>
 <blockquote>
 <p><strong>isNamespaceZeroUpdateNecessary</strong>(): <code>Promise</code>\&lt;<code>boolean</code>></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L1038">interfaces/siome-api.interface.ts:1038</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L1049">interfaces/siome-api.interface.ts:1049</a></p>
 <p>Check if Namespace up to date</p>
 <h4 id="returns_76">Returns</h4>
 <p><code>Promise</code>\&lt;<code>boolean</code>></p>
@@ -8938,7 +8938,7 @@ attributeId:20 options: boolean | string</p>
 <blockquote>
 <p><strong>updateNamespaceZero</strong>(): <code>Promise</code>\&lt;<code>void</code>></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L1044">interfaces/siome-api.interface.ts:1044</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L1055">interfaces/siome-api.interface.ts:1055</a></p>
 <p>update namespace</p>
 <h4 id="returns_77">Returns</h4>
 <p><code>Promise</code>\&lt;<code>void</code>></p>
@@ -8947,7 +8947,7 @@ attributeId:20 options: boolean | string</p>
 <blockquote>
 <p><strong>addSimaticServerInterface</strong>(<code>isReferenceNamespace</code>): <code>Promise</code>\&lt;<code>void</code>></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L776">interfaces/siome-api.interface.ts:776</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L786">interfaces/siome-api.interface.ts:786</a></p>
 <p>Open a dialog in SiOME to choose the server interface export options to the TIA Portal.</p>
 <h4 id="parameters_55">Parameters</h4>
 <h5 id="isreferencenamespace">isReferenceNamespace</h5>
@@ -8959,7 +8959,7 @@ attributeId:20 options: boolean | string</p>
 <blockquote>
 <p><strong>addSimaticServerInterfaceImplicit</strong>(<code>isReferenceNamespace</code>, <code>namespaceIndices</code>, <code>serverInterfaceName</code>): <code>Promise</code>\&lt;<code>void</code>></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L785">interfaces/siome-api.interface.ts:785</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L795">interfaces/siome-api.interface.ts:795</a></p>
 <p>Implicitly adds the Simatic server interface to the TIA-Portal.</p>
 <h4 id="parameters_56">Parameters</h4>
 <h5 id="isreferencenamespace_1">isReferenceNamespace</h5>
@@ -8975,7 +8975,7 @@ attributeId:20 options: boolean | string</p>
 <blockquote>
 <p><strong>closeTIAProject</strong>(): <code>Promise</code>\&lt;<code>void</code>></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L724">interfaces/siome-api.interface.ts:724</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L734">interfaces/siome-api.interface.ts:734</a></p>
 <p>Close the TIA Portal project attached in SiOME</p>
 <h4 id="returns_80">Returns</h4>
 <p><code>Promise</code>\&lt;<code>void</code>></p>
@@ -8984,7 +8984,7 @@ attributeId:20 options: boolean | string</p>
 <blockquote>
 <p><strong>compileTia</strong>(): <code>Promise</code>\&lt;<code>void</code>></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L730">interfaces/siome-api.interface.ts:730</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L740">interfaces/siome-api.interface.ts:740</a></p>
 <p>Initiate a compile in the TIA Portal.</p>
 <h4 id="returns_81">Returns</h4>
 <p><code>Promise</code>\&lt;<code>void</code>></p>
@@ -8993,7 +8993,7 @@ attributeId:20 options: boolean | string</p>
 <blockquote>
 <p><strong>getAllBlockNames</strong>(): <code>Promise</code>\&lt;<code>string</code>[]></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L757">interfaces/siome-api.interface.ts:757</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L767">interfaces/siome-api.interface.ts:767</a></p>
 <p>Retrieve all available db names in current TIA Portal project</p>
 <h4 id="returns_82">Returns</h4>
 <p><code>Promise</code>\&lt;<code>string</code>[]></p>
@@ -9002,7 +9002,7 @@ attributeId:20 options: boolean | string</p>
 <blockquote>
 <p><strong>getAllTagTableNames</strong>(): <code>Promise</code>\&lt;<code>string</code>[]></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L769">interfaces/siome-api.interface.ts:769</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L779">interfaces/siome-api.interface.ts:779</a></p>
 <p>Retrieve all available tag tables in current TIA Portal project</p>
 <h4 id="returns_83">Returns</h4>
 <p><code>Promise</code>\&lt;<code>string</code>[]></p>
@@ -9011,7 +9011,7 @@ attributeId:20 options: boolean | string</p>
 <blockquote>
 <p><strong>getAllUdtNames</strong>(): <code>Promise</code>\&lt;<code>string</code>[]></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L763">interfaces/siome-api.interface.ts:763</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L773">interfaces/siome-api.interface.ts:773</a></p>
 <p>Retrieve all available udt names in current TIA Portal project</p>
 <h4 id="returns_84">Returns</h4>
 <p><code>Promise</code>\&lt;<code>string</code>[]></p>
@@ -9020,7 +9020,7 @@ attributeId:20 options: boolean | string</p>
 <blockquote>
 <p><strong>getBlockDetails</strong>(<code>blockName</code>): <code>Promise</code>\&lt;<a href="../../../tia-node.interface/interfaces/ITiaNode/"><code>ITiaNode</code></a>></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L737">interfaces/siome-api.interface.ts:737</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L747">interfaces/siome-api.interface.ts:747</a></p>
 <p>Retrieve the specific block details from the TIA Portal.</p>
 <h4 id="parameters_57">Parameters</h4>
 <h5 id="blockname">blockName</h5>
@@ -9032,7 +9032,7 @@ attributeId:20 options: boolean | string</p>
 <blockquote>
 <p><strong>getListOfOpenProjectsInTIA</strong>(): <code>Promise</code>\&lt;<code>string</code>[]></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L674">interfaces/siome-api.interface.ts:674</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L684">interfaces/siome-api.interface.ts:684</a></p>
 <p>Gets a list of open TIA-Portal projects</p>
 <h4 id="returns_86">Returns</h4>
 <p><code>Promise</code>\&lt;<code>string</code>[]></p>
@@ -9041,7 +9041,7 @@ attributeId:20 options: boolean | string</p>
 <blockquote>
 <p><strong>getTagTableDetails</strong>(<code>tagTableName</code>): <code>Promise</code>\&lt;<a href="../../../tia-node.interface/interfaces/ITiaNode/"><code>ITiaNode</code></a>></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L751">interfaces/siome-api.interface.ts:751</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L761">interfaces/siome-api.interface.ts:761</a></p>
 <p>Retrieve the specific tag table details from the TIA Portal.</p>
 <h4 id="parameters_58">Parameters</h4>
 <h5 id="tagtablename">tagTableName</h5>
@@ -9053,7 +9053,7 @@ attributeId:20 options: boolean | string</p>
 <blockquote>
 <p><strong>getTIAProjectPath</strong>(): <code>Promise</code>\&lt;<code>string</code>></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L692">interfaces/siome-api.interface.ts:692</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L702">interfaces/siome-api.interface.ts:702</a></p>
 <p>Get the current TIA Portal project path.</p>
 <h4 id="returns_88">Returns</h4>
 <p><code>Promise</code>\&lt;<code>string</code>></p>
@@ -9062,7 +9062,7 @@ attributeId:20 options: boolean | string</p>
 <blockquote>
 <p><strong>getUdtDetails</strong>(<code>udtName</code>): <code>Promise</code>\&lt;<a href="../../../tia-node.interface/interfaces/ITiaNode/"><code>ITiaNode</code></a>></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L744">interfaces/siome-api.interface.ts:744</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L754">interfaces/siome-api.interface.ts:754</a></p>
 <p>Retrieve the specific udt details from the TIA Portal.</p>
 <h4 id="parameters_59">Parameters</h4>
 <h5 id="udtname">udtName</h5>
@@ -9074,7 +9074,7 @@ attributeId:20 options: boolean | string</p>
 <blockquote>
 <p><strong>importFromTIA</strong>(<code>nodesetName</code>): <code>Promise</code>\&lt;<code>void</code>></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L796">interfaces/siome-api.interface.ts:796</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L806">interfaces/siome-api.interface.ts:806</a></p>
 <p>Load a node set from TIA.</p>
 <h4 id="parameters_60">Parameters</h4>
 <h5 id="nodesetname">nodesetName</h5>
@@ -9086,7 +9086,7 @@ attributeId:20 options: boolean | string</p>
 <blockquote>
 <p><strong>isAttachedToTIA</strong>(): <code>Promise</code>\&lt;<code>boolean</code>></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L680">interfaces/siome-api.interface.ts:680</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L690">interfaces/siome-api.interface.ts:690</a></p>
 <p>Check if SiOME is currently attached to a TIA Portal project.</p>
 <h4 id="returns_91">Returns</h4>
 <p><code>Promise</code>\&lt;<code>boolean</code>></p>
@@ -9095,7 +9095,7 @@ attributeId:20 options: boolean | string</p>
 <blockquote>
 <p><strong>isConnectedToTIA</strong>(): <code>Promise</code>\&lt;<code>boolean</code>></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L686">interfaces/siome-api.interface.ts:686</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L696">interfaces/siome-api.interface.ts:696</a></p>
 <p>Check if SiOME is currently connected to a TIA Portal project.</p>
 <h4 id="returns_92">Returns</h4>
 <p><code>Promise</code>\&lt;<code>boolean</code>></p>
@@ -9104,7 +9104,7 @@ attributeId:20 options: boolean | string</p>
 <blockquote>
 <p><strong>openTIAProjectDialog</strong>(): <code>Promise</code>\&lt;<code>void</code>></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L698">interfaces/siome-api.interface.ts:698</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L708">interfaces/siome-api.interface.ts:708</a></p>
 <p>Open a dialog in SiOME to attach to a TIA Portal project.</p>
 <h4 id="returns_93">Returns</h4>
 <p><code>Promise</code>\&lt;<code>void</code>></p>
@@ -9114,7 +9114,7 @@ attributeId:20 options: boolean | string</p>
 <blockquote>
 <p><strong>connectToTIAImplicit</strong>(<code>attach</code>, <code>disableTimeout</code>, <code>path</code>?, <code>plcName</code>?, <code>userName</code>?, <code>password</code>?): <code>Promise</code>\&lt;<code>void</code> | <a href="../../../open-project-error.interface/interfaces/IOpenProjectError/"><code>IOpenProjectError</code></a>></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L711">interfaces/siome-api.interface.ts:711</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L721">interfaces/siome-api.interface.ts:721</a></p>
 <p>connect to a TIA Portal project.</p>
 <h4 id="parameters_61">Parameters</h4>
 <h5 id="attach">attach</h5>
@@ -9139,7 +9139,7 @@ attributeId:20 options: boolean | string</p>
 <blockquote>
 <p><strong>activateOpcNode</strong>(<code>nodeId</code>): <code>Promise</code>\&lt;<code>void</code>></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L470">interfaces/siome-api.interface.ts:470</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L475">interfaces/siome-api.interface.ts:475</a></p>
 <p>Highlight and select the specific node in the information model.</p>
 <h4 id="parameters_62">Parameters</h4>
 <h5 id="nodeid_12">nodeId</h5>
@@ -9151,7 +9151,7 @@ attributeId:20 options: boolean | string</p>
 <blockquote>
 <p><strong>addBasicContextMenu</strong>(<code>text</code>, <code>execute</code>, <code>disabled</code>?, <code>visible</code>?): <code>Promise</code>\&lt;<code>void</code>></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L412">interfaces/siome-api.interface.ts:412</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L417">interfaces/siome-api.interface.ts:417</a></p>
 <p>The method adds a context menu for each node in the information model.</p>
 <h4 id="parameters_63">Parameters</h4>
 <h5 id="text">text</h5>
@@ -9171,7 +9171,7 @@ attributeId:20 options: boolean | string</p>
 <blockquote>
 <p><strong>addMappingContextMenu</strong>(<code>text</code>, <code>execute</code>, <code>disabled</code>?, <code>visible</code>?): <code>Promise</code>\&lt;<code>void</code>></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L427">interfaces/siome-api.interface.ts:427</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L432">interfaces/siome-api.interface.ts:432</a></p>
 <p>The method adds a context menu in the mapping area for each node in the information model.</p>
 <h4 id="parameters_64">Parameters</h4>
 <h5 id="text_1">text</h5>
@@ -9191,7 +9191,7 @@ attributeId:20 options: boolean | string</p>
 <blockquote>
 <p><strong>jumpToNode</strong>(<code>nodeId</code>): <code>Promise</code>\&lt;<code>void</code>></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L457">interfaces/siome-api.interface.ts:457</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L462">interfaces/siome-api.interface.ts:462</a></p>
 <p>Jump to a specific node in the information model tree</p>
 <h4 id="parameters_65">Parameters</h4>
 <h5 id="nodeid_13">nodeId</h5>
@@ -9203,7 +9203,7 @@ attributeId:20 options: boolean | string</p>
 <blockquote>
 <p><strong>openAlertDialog</strong>(<code>headline</code>, <code>message</code>): <code>Promise</code>\&lt;<code>void</code>></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L440">interfaces/siome-api.interface.ts:440</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L445">interfaces/siome-api.interface.ts:445</a></p>
 <p>Open an alert dialog in SiOME</p>
 <h4 id="parameters_66">Parameters</h4>
 <h5 id="headline">headline</h5>
@@ -9217,7 +9217,7 @@ attributeId:20 options: boolean | string</p>
 <blockquote>
 <p><strong>openExportXMLDialog</strong>(): <code>Promise</code>\&lt;<code>void</code>></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L463">interfaces/siome-api.interface.ts:463</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L468">interfaces/siome-api.interface.ts:468</a></p>
 <p>Open the default dialog in SiOME to export nodesets</p>
 <h4 id="returns_100">Returns</h4>
 <p><code>Promise</code>\&lt;<code>void</code>></p>
@@ -9226,7 +9226,7 @@ attributeId:20 options: boolean | string</p>
 <blockquote>
 <p><strong>openSelectDirectoryDialog</strong>(<code>title</code>?): <code>Promise</code>\&lt;<code>string</code>></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L402">interfaces/siome-api.interface.ts:402</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L407">interfaces/siome-api.interface.ts:407</a></p>
 <p>Open a dialog in SiOME to select a directory.</p>
 <h4 id="parameters_67">Parameters</h4>
 <h5 id="title">title?</h5>
@@ -9241,7 +9241,7 @@ attributeId:20 options: boolean | string</p>
 <blockquote>
 <p><strong>openSelectFileDialog</strong>(<code>defaultPath</code>?, <code>fileExtension</code>?, <code>multiSelect</code>?): <code>Promise</code>\&lt;<code>string</code>[]></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L450">interfaces/siome-api.interface.ts:450</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L455">interfaces/siome-api.interface.ts:455</a></p>
 <p>Open a dialog in SiOME to select one or multiple file(s).</p>
 <h4 id="parameters_68">Parameters</h4>
 <h5 id="defaultpath">defaultPath?</h5>
@@ -9259,7 +9259,7 @@ attributeId:20 options: boolean | string</p>
 <blockquote>
 <p><strong>validateMappings</strong>(<code>nodeId</code>): <code>Promise</code>\&lt;<code>object</code>[]></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L816">interfaces/siome-api.interface.ts:816</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L826">interfaces/siome-api.interface.ts:826</a></p>
 <p>Validate the mapping for a given node and its children</p>
 <h4 id="parameters_69">Parameters</h4>
 <h5 id="nodeid_14">nodeId</h5>
@@ -9271,7 +9271,7 @@ attributeId:20 options: boolean | string</p>
 <blockquote>
 <p><strong>validateNodeSet</strong>(<code>commonRules</code>, <code>mappingRules</code>, <code>addIns</code>, <code>isOnline</code>): <code>Promise</code>\&lt;<a href="../../../validation-conflict.interface/interfaces/IValidationConflict/"><code>IValidationConflict</code></a>[]></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L826">interfaces/siome-api.interface.ts:826</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L836">interfaces/siome-api.interface.ts:836</a></p>
 <p>Validate the nodeset with rules.</p>
 <h4 id="parameters_70">Parameters</h4>
 <h5 id="commonrules">commonRules</h5>
@@ -9289,7 +9289,7 @@ attributeId:20 options: boolean | string</p>
 <blockquote>
 <p><strong>validateSchema</strong>(<code>filePath</code>, <code>providedSchemas</code>): <code>Promise</code>\&lt;<code>boolean</code>></p>
 </blockquote>
-<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L809">interfaces/siome-api.interface.ts:809</a></p>
+<p>Defined in: <a href="https://github.com/ssanoyan/SiOME-Base-Plugin/blob/ed713490481389e94f4b7fbf3729a4218d3dc2fc/src/app/shared/public-api/interfaces/siome-api.interface.ts#L819">interfaces/siome-api.interface.ts:819</a></p>
 <p>Validate the corresponding file with the provided schemas</p>
 <h4 id="parameters_71">Parameters</h4>
 <h5 id="filepath">filePath</h5>
